@@ -15,7 +15,7 @@ This project uses deep learning techniques to classify brain MRI images into fou
 
 ---
 
-## 🔍 Problem Statement
+## 🔍 Problem Statementt
 
 Brain tumors are abnormal growths of cells within the brain that can be life-threatening. Early and accurate diagnosis is crucial. This project aims to automate the classification of brain MRI images into tumor categories using Convolutional Neural Networks (CNNs) and Transfer Learning, reducing the dependency on manual diagnosis.
 
@@ -59,8 +59,9 @@ We built an interactive web app using Streamlit that allows users to upload brai
 
 ```bash
 streamlit run app.py
+```
 
----
+
 
 ### 📂 Model Files
 
