@@ -21,6 +21,20 @@ Brain tumors are abnormal growths of cells within the brain that can be life-thr
 
 ---
 
+### 📁 Dataset
+
+- The dataset used for this project was **provided by Labmentix** as part of the internship assignment.
+- It contains brain MRI images categorized into four classes:
+  - **Glioma**
+  - **Meningioma**
+  - **Pituitary**
+  - **No Tumor**
+- Images are organized into labeled folders for training and testing purposes.
+
+> ℹ️ *Although similar datasets exist on Kaggle, this dataset was prepackaged and shared internally by Labmentix.*
+
+---
+
 ## 🧪 Models Used
 
 1. **Custom CNN Model**
