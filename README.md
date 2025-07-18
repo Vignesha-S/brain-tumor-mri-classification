@@ -59,3 +59,44 @@ We built an interactive web app using Streamlit that allows users to upload brai
 
 ```bash
 streamlit run app.py
+
+---
+
+### 📂 Model Files
+
+- `mobilenetv2_best.h5`: Fine-tuned MobileNetV2 model used for prediction.
+- `custom_cnn_best.h5`: Custom CNN model trained from scratch (**not uploaded** due to size limitations).
+
+> ℹ️ *Note: Only the MobileNetV2 model is included in the repository since GitHub restricts uploads above 100 MB.*
+
+---
+
+### 🧪 Manual Testing Results
+
+After deployment, several test images were uploaded through the Streamlit app. Below are the observations:
+
+| **Image** | **Expected** | **Predicted** | **Confidence** |
+|----------|--------------|----------------|----------------|
+| Image 1  | Meningioma   | Meningioma ✅   | 67.25%         |
+| Image 2  | Glioma       | Glioma ✅       | 96.35%         |
+| Image 3  | No Tumor     | No Tumor ✅     | 93.45%         |
+| Image 4  | Pituitary    | Meningioma ❌   | 52.14%         |
+| Image 5  | Pituitary    | Pituitary ✅    | 94.15%         |
+
+---
+
+### 🖼️ Streamlit App Screenshot
+
+Below is the user interface of the deployed web application:
+
+![Streamlit UI](https://drive.google.com/uc?id=1IzG0kXP8xaLyH5PSsNLImRxGuuY-ty_p)
+
+---
+
+### ✅ Conclusion
+
+This project successfully demonstrates brain tumor classification using deep learning models. A custom CNN model and a pretrained MobileNetV2 model were developed and evaluated. The MobileNetV2 model outperformed the custom CNN in both accuracy and generalization.
+
+A user-friendly Streamlit web application was created for easy interaction with the model, allowing users to upload MRI images and receive predictions with confidence scores. This real-time interface bridges the gap between deep learning and practical usability, showcasing the potential for deployment in medical diagnostics.
+
+---
